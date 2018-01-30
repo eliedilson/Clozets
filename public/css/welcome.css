@@ -1,10 +1,30 @@
 body
 {
-	background-image: -webkit-linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url(/storage/pictures/website/background.jpg);
-  	background-image: -o-linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url(/storage/pictures/website/background.jpg);
-  	background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url(/storage/pictures/website/background.jpg);
+	background-image: -webkit-linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)), url(/storage/pictures/website/background.jpg);
+  	background-image: -o-linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)), url(/storage/pictures/website/background.jpg);
+  	background-image: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)), url(/storage/pictures/website/background.jpg);
 
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
+ }
+
+nav{
+	background: #0B0B0B;
 }
+
+.row div
+{
+	margin-bottom: 5%;
+}
+
+ .welcome-btn a
+ {
+ 	background-color: #F5A623;
+ 	color: #FFF;
+ }
+
+ .welcome-message h3
+ {
+ 	color: #FF9900;
+ }

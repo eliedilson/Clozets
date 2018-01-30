@@ -6,7 +6,7 @@
 
 @section('nav-section')
 	
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	<nav class="navbar navbar-expand-sm">
 	  <!-- Brand/logo -->
 	  
 	  <div style=" 
@@ -25,4 +25,21 @@
 @endsection
 
 @section('container-two-section-one')
+	
+	<div class="row">
+		<div style="width: 40%; margin: 17% auto 1% auto; padding: 1%;">
+
+				<div class="welcome-logo">
+					<center><img src="{{Storage::url('pictures/website/clozet.png')}}" /></center>
+				</div>
+
+				<div class="welcome-btn">
+					<center><a href="" class="btn"><strong>BROWSE OUTFITS</strong></a></center>
+				</div>
+
+				<div class="welcome-message">
+					<center><h3 class="">Find out where your community <br>clothes</h3></center>
+				</div>
+		</div>
+	</div>
 @endsection
